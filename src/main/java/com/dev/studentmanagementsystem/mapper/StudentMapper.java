@@ -14,7 +14,7 @@ public class StudentMapper {
         return studentDto;
     }
 
-    public static Student mpaToStudent(StudentDto studentDto) {
+    public static Student mapToStudent(StudentDto studentDto) {
         Student student = new Student(
             studentDto.getId(),
             studentDto.getFirstName(),
